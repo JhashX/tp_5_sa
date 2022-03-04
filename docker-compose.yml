@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+  tp5:
+    build: .
+    restart: on-failure
+    container_name : tp5
+    ports:
+      - "3000:3000"
