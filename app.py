@@ -5,7 +5,7 @@ server = Flask(__name__)
 
 @server.route('/', methods=['GET'])
 def start():
-    return {'msg': "Software avanzado - Tarea Práctica 5 - 201800600 - Lenin Calderon"}, 200
+    return '<b>Software avanzado - Tarea Práctica 5 - 201800600 - Lenin Calderon<b>', 200
 
 
 if __name__ == '__main__':
